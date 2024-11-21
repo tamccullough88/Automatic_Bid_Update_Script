@@ -1,7 +1,7 @@
 //this is the actual script I am using to export the bids to a google sheet. the logic is the same between here and the test files. 
 
 function main() {
-    var SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/1X9MFbC6kNv9pYKo5o-dJc3ljsYoa_47SLbBRxmNN6sA/edit?gid=1651756630#gid=1651756630'; // Replace with your Google Sheet URL
+    var SPREADSHEET_URL = 'Redacted'; // Replace with your Google Sheet URL
     var SHEET_NAME = 'From_GAD'; // Replace with the specific sheet name
     
     var spreadsheet = SpreadsheetApp.openByUrl(SPREADSHEET_URL);
