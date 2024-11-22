@@ -45,7 +45,7 @@ function processRows(rows, sheet) {
       row['AdGroupName'],
       row['Criteria'],
       row['KeywordMatchType'],
-      maxCpc.toFixed(2), // Updated bid
+      Math.round(maxCpc*100)/100, // Updated bid
       clicks,
       row['Cost'],
       row['Impressions'],
