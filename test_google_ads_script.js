@@ -54,7 +54,7 @@ function processRows(rows, sheet) {
       imprAbsTop.toFixed(2),
       row['Conversions'],
       row['CostPerConversion'],
-      convRate.toFixed(4),
+      convRate.toFixed(2)/100,
       row['ConversionValue'],
       roas.toFixed(2),
     ];
